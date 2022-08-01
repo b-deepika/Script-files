@@ -1,0 +1,24 @@
+cat ~/.bash_profile
+export GIT_EDITOR=vim
+
+source ~/.bashrc
+alias python3="cmd.exe /C python3"
+alias pip3="cmd.exe /C pip3"
+
+#eval ssh-agent $SHELL
+#ssh-add ~/.ssh/id_rsa_github
+
+alias gad="git add"
+alias gbr="git branch"
+alias gch="git checkout"
+alias gst="git status"
+alias gps="git push"
+alias gpl="git pull --recurse-submodules"
+alias gchb="git checkout -b"
+alias gcm="git commit -m"
+alias gca="git commit --amend"
+alias glg="git log "
+alias glo="git log --oneline"
+alias gdf="git diff "
+alias gcl="git clean -df"
+alias gclx="git clean -dfX"
